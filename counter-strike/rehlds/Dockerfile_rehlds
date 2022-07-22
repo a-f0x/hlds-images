@@ -1,0 +1,18 @@
+FROM af0x/hlds:rehlds
+#RUN apt-get -y install mc
+## back weapons https://forums.alliedmods.net/showthread.php?p=359356
+COPY ./addons .
+COPY ./liblist.gam ./cstrike/liblist.gam
+
+
+
+
+
+
+RUN echo "backweapons.amxx" >> ./cstrike/addons/amxmodx/configs/plugins.ini && \
+echo "semiclip.amxx" >> ./cstrike/addons/amxmodx/configs/plugins.ini && \
+echo "mapchooser.amxx" >> ./cstrike/addons/amxmodx/configs/plugins.ini && \
+echo "speclist.amxx" >> ./cstrike/addons/amxmodx/configs/plugins.ini
+
+
+#ENTRYPOINT ./hlds_run -game cstrike + map de_dust2
