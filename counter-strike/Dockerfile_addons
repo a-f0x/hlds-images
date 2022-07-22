@@ -1,0 +1,7 @@
+FROM af0x/hlds:cs-classic
+RUN #apt-get -y install mc
+## back weapons https://forums.alliedmods.net/showthread.php?p=359356
+COPY ./addons/back_weapons .
+RUN echo "backweapons.amxx" >> ./cstrike/addons/amxmodx/configs/plugins.ini
+
+ENTRYPOINT ./hlds_run -game cstrike + map de_dust2
