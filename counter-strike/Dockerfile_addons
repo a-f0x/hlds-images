@@ -4,7 +4,6 @@ FROM af0x/hlds:cs-classic
 COPY ./addons .
 RUN echo "backweapons.amxx" >> ./cstrike/addons/amxmodx/configs/plugins.ini && \
 echo "semiclip.amxx" >> ./cstrike/addons/amxmodx/configs/plugins.ini && \
-echo "nice_killer.amxx" >> ./cstrike/addons/amxmodx/configs/plugins.ini && \
 echo "mapchooser.amxx" >> ./cstrike/addons/amxmodx/configs/plugins.ini && \
 echo "speclist.amxx" >> ./cstrike/addons/amxmodx/configs/plugins.ini
 
