@@ -1,2 +1,2 @@
-docker build -f ./Dockerfile_addons -t af0x/hlds:cs-addons .
-docker push af0x/hlds:cs-addons
+docker build -f ./Dockerfile_rehlds -t af0x/hlds:cs-rehlds .
+docker push af0x/hlds:cs-rehlds

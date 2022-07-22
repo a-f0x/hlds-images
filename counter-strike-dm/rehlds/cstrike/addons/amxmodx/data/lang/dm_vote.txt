@@ -1,0 +1,19 @@
+[en]
+VOTE_STARTS_IN = The vote will start in %d seconds!
+VOTE_STARTING = Starting vote...
+VOTE_FINISHS_IN = The vote will end in %d seconds!
+VOTE_FINISH = !yVote ended. OnlyHead mode !g(%d%%) !y- Normal mode !g(%d%%)
+VOTE_RESULT = !yDeathMatch will be !team%s.
+VOTE_NOWINNER = !yThe vote has not winner. DeathMatch will be !teamNormal mode.
+VOTE_MENU_TITLE = \r[Vote Menu] \yWhich type of DeatMatch you would like to play?
+VOTE_HAS_CHOOSEN = !team%s !yhas choosen !team%s mode
+
+[ru]
+VOTE_STARTS_IN = Голосование начнется через %d сек.!
+VOTE_STARTING = Голосование начинается...
+VOTE_FINISHS_IN = Голосование окончится через %d сек.!
+VOTE_FINISH = !yГолосование окончено. ХедШот !g(%d%%) !y- Нормальный !g(%d%%)
+VOTE_RESULT = !yЗапущен !team%s !yрежим.
+VOTE_NOWINNER = !yГолосование провалено. Запущен !teamнормальный режим.
+VOTE_MENU_TITLE = \r[CS:DM] \yВыберите режим игры
+VOTE_HAS_CHOOSEN = !team%s !yвыбрал !team%s режим

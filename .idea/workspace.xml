@@ -5,10 +5,232 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b60851f-6c73-4bee-9bb9-06bf47e1343c" name="Changes" comment="add rehlds">
-      <change afterPath="$PROJECT_DIR$/counter-strike/rehlds/Dockerfile_addons" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/counter-strike/rehlds/build_cs-addons.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/counter-strike/rehlds/build_cs-addons_and_publish.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rehlds/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/rehlds/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/Dockerfile_rehlds" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/build_cs-dm-rehlds.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/build_cs-dm-rehlds_and_publish.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/configs/csdm.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/configs/csdm/awp_map.spawns.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/configs/csdm/cs_747.spawns.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/configs/csdm/cs_assault.spawns.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/configs/csdm/cs_backalley.spawns.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/configs/csdm/cs_bbicotka.spawns.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/configs/csdm/cs_downed_cz.spawns.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/configs/csdm/cs_estate.spawns.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/configs/csdm/cs_havana.spawns.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/configs/csdm/cs_havana_cz.spawns.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/configs/csdm/cs_intercept.spawns.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/configs/csdm/cs_italy.spawns.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/configs/csdm/cs_italy_cz.spawns.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/configs/csdm/cs_militia.spawns.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/configs/csdm/cs_mopo3.spawns.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/configs/csdm/cs_nnd.spawns.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/configs/csdm/cs_office.spawns.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/configs/csdm/cs_siege.spawns.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/configs/csdm/cs_thunder.spawns.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/configs/csdm/de_2minaret.spawns.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/configs/csdm/de_airstrip.spawns.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/configs/csdm/de_airstrip_cz.spawns.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/configs/csdm/de_aztec.spawns.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/configs/csdm/de_aztec2.spawns.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/configs/csdm/de_aztec3.spawns.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/configs/csdm/de_aztec_cz.spawns.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/configs/csdm/de_cbble.spawns.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/configs/csdm/de_cbble_cz.spawns.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/configs/csdm/de_chateau.spawns.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/configs/csdm/de_clan1_mill.spawns.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/configs/csdm/de_clan2_fire.spawns.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/configs/csdm/de_clan3_heat.spawns.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/configs/csdm/de_clan4_stone.spawns.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/configs/csdm/de_cpl_fire.spawns.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/configs/csdm/de_dam_final.spawns.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/configs/csdm/de_damaged.spawns.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/configs/csdm/de_dust-forever.spawns.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/configs/csdm/de_dust.spawns.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/configs/csdm/de_dust2.spawns.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/configs/csdm/de_dust2_cz.spawns.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/configs/csdm/de_dust4.spawns.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/configs/csdm/de_dust4ever.spawns.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/configs/csdm/de_dust_castle.spawns.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/configs/csdm/de_dust_cz.spawns.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/configs/csdm/de_dustmix4.spawns.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/configs/csdm/de_dustybleek.spawns.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/configs/csdm/de_indust.spawns.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/configs/csdm/de_inetcafe.spawns.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/configs/csdm/de_inferno.spawns.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/configs/csdm/de_inferno_cz.spawns.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/configs/csdm/de_nuke.spawns.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/configs/csdm/de_piranesi.spawns.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/configs/csdm/de_plaka.spawns.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/configs/csdm/de_prodigy.spawns.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/configs/csdm/de_quarry.spawns.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/configs/csdm/de_raoni.spawns.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/configs/csdm/de_rusty.spawns.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/configs/csdm/de_slap.spawns.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/configs/csdm/de_storm.spawns.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/configs/csdm/de_survivor.spawns.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/configs/csdm/de_torn.spawns.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/configs/csdm/de_train.spawns.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/configs/csdm/de_vertigo.spawns.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/configs/csdm/extraconfigs/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/configs/csdm/fy_iceworld.spawns.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/configs/csdm/items/ents_awp_map.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/configs/csdm/items/ents_cs_assault.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/configs/csdm/items/ents_cs_estate.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/configs/csdm/items/ents_cs_italy.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/configs/csdm/items/ents_cs_militia.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/configs/csdm/items/ents_cs_office.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/configs/csdm/items/ents_cs_siege.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/configs/csdm/items/ents_de_aztec.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/configs/csdm/items/ents_de_dust.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/configs/csdm/items/ents_de_dust2.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/configs/csdm/items/ents_de_dust2_cz.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/configs/csdm/items/ents_de_dust4ever.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/configs/csdm/items/ents_de_dust_castle.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/configs/csdm/items/ents_de_dust_cz.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/configs/csdm/items/ents_de_dustybleek.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/configs/csdm/items/ents_de_inferno.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/configs/csdm/items/ents_de_train.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/configs/csdm/items/ents_fy_iceworld.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/configs/csdm/items/ents_ka_legoland.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/configs/csdm/items/ents_scoutzknivez.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/configs/csdm/ka_legoland.spawns.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/configs/csdm/scoutzknivez.spawns.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/configs/plugins-csdm.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/data/lang/dm_vote.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/documentation/readme.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/modules/csdm_amxx_i386.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/plugins/csdm_equip.amxx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/plugins/csdm_ffa.amxx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/plugins/csdm_itemmode.amxx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/plugins/csdm_main.amxx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/plugins/csdm_misc.amxx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/plugins/csdm_protection.amxx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/plugins/csdm_spawn_preset.amxx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/plugins/csdm_tickets.amxx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/plugins/dm_mode_vote.amxx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/plugins/spawn_editor.amxx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/plugins/vampire.amxx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/scripting/csdm_equip.sma" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/scripting/csdm_ffa.sma" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/scripting/csdm_itemmode.sma" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/scripting/csdm_main.sma" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/scripting/csdm_misc.sma" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/scripting/csdm_protection.sma" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/scripting/csdm_spawn_preset.sma" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/scripting/csdm_tickets.sma" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/scripting/dm_mode_vote.sma" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/scripting/include/csdm.inc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike-dm/rehlds/cstrike/addons/amxmodx/scripting/spawn_editor.sma" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike/cstrike/models/backweapons.mdl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike/rehlds/cstrike/addons/amxmodx/configs/stats.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike/rehlds/cstrike/addons/amxmodx/data/csstats.amxx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike/rehlds/cstrike/addons/amxmodx/data/lang/lastround.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike/rehlds/cstrike/addons/amxmodx/data/lang/mapchooser.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike/rehlds/cstrike/addons/amxmodx/modules/cstrike_amxx_i386.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike/rehlds/cstrike/addons/amxmodx/modules/csx_amxx_i386.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike/rehlds/cstrike/addons/amxmodx/plugins/backweapons.amxx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike/rehlds/cstrike/addons/amxmodx/plugins/mapchooser.amxx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike/rehlds/cstrike/addons/amxmodx/plugins/miscstats.amxx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike/rehlds/cstrike/addons/amxmodx/plugins/restmenu.amxx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike/rehlds/cstrike/addons/amxmodx/plugins/stats_logging.amxx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike/rehlds/cstrike/addons/amxmodx/plugins/statsx.amxx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike/rehlds/cstrike/addons/amxmodx/scripting/csstats.sma" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike/rehlds/cstrike/addons/amxmodx/scripting/miscstats.sma" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike/rehlds/cstrike/addons/amxmodx/scripting/restmenu.sma" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike/rehlds/cstrike/addons/amxmodx/scripting/stats_logging.sma" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike/rehlds/cstrike/addons/resemiclip/config.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike/rehlds/cstrike/addons/resemiclip/maps/_de_dust2.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike/rehlds/cstrike/addons/resemiclip/maps/_prefix_de.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike/rehlds/cstrike/addons/resemiclip/resemiclip_mm_i386.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike/rehlds/cstrike/dlls/cs.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike/rehlds/cstrike/game.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike/rehlds/cstrike/game_init.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter-strike/rehlds/cstrike/models/backweapons.mdl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rehlds/addons/amxmodx/scripting/backweapons.sma" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rehlds/addons/amxmodx/scripting/compiled/admin.amxx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rehlds/addons/amxmodx/scripting/compiled/adminchat.amxx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rehlds/addons/amxmodx/scripting/compiled/admincmd.amxx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rehlds/addons/amxmodx/scripting/compiled/adminhelp.amxx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rehlds/addons/amxmodx/scripting/compiled/adminslots.amxx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rehlds/addons/amxmodx/scripting/compiled/adminvote.amxx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rehlds/addons/amxmodx/scripting/compiled/antiflood.amxx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rehlds/addons/amxmodx/scripting/compiled/backweapons.amxx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rehlds/addons/amxmodx/scripting/compiled/cmdmenu.amxx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rehlds/addons/amxmodx/scripting/compiled/csdm_equip.amxx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rehlds/addons/amxmodx/scripting/compiled/csdm_ffa.amxx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rehlds/addons/amxmodx/scripting/compiled/csdm_itemmode.amxx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rehlds/addons/amxmodx/scripting/compiled/csdm_main.amxx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rehlds/addons/amxmodx/scripting/compiled/csdm_misc.amxx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rehlds/addons/amxmodx/scripting/compiled/csdm_protection.amxx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rehlds/addons/amxmodx/scripting/compiled/csdm_spawn_preset.amxx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rehlds/addons/amxmodx/scripting/compiled/csdm_tickets.amxx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rehlds/addons/amxmodx/scripting/compiled/dm_mode_vote.amxx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rehlds/addons/amxmodx/scripting/compiled/imessage.amxx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rehlds/addons/amxmodx/scripting/compiled/mapchooser.amxx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rehlds/addons/amxmodx/scripting/compiled/mapsmenu.amxx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rehlds/addons/amxmodx/scripting/compiled/menufront.amxx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rehlds/addons/amxmodx/scripting/compiled/multilingual.amxx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rehlds/addons/amxmodx/scripting/compiled/nextmap.amxx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rehlds/addons/amxmodx/scripting/compiled/pausecfg.amxx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rehlds/addons/amxmodx/scripting/compiled/plmenu.amxx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rehlds/addons/amxmodx/scripting/compiled/pluginmenu.amxx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rehlds/addons/amxmodx/scripting/compiled/scrollmsg.amxx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rehlds/addons/amxmodx/scripting/compiled/spawn_editor.amxx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rehlds/addons/amxmodx/scripting/compiled/statscfg.amxx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rehlds/addons/amxmodx/scripting/compiled/telemenu.amxx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rehlds/addons/amxmodx/scripting/compiled/timeleft.amxx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rehlds/addons/amxmodx/scripting/compiled/vampire.amxx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rehlds/addons/amxmodx/scripting/csdm_equip.sma" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rehlds/addons/amxmodx/scripting/csdm_ffa.sma" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rehlds/addons/amxmodx/scripting/csdm_itemmode.sma" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rehlds/addons/amxmodx/scripting/csdm_main.sma" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rehlds/addons/amxmodx/scripting/csdm_misc.sma" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rehlds/addons/amxmodx/scripting/csdm_protection.sma" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rehlds/addons/amxmodx/scripting/csdm_spawn_preset.sma" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rehlds/addons/amxmodx/scripting/csdm_tickets.sma" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rehlds/addons/amxmodx/scripting/dm_mode_vote.sma" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rehlds/addons/amxmodx/scripting/include/csdm.inc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rehlds/addons/amxmodx/scripting/spawn_editor.sma" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rehlds/addons/amxmodx/scripting/vampire.sma" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rehlds/addons/metamod/config.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rehlds/addons/metamod/metamod.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rehlds/addons/metamod/metamod_i386.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/counter-strike-dm/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/counter-strike-dm/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/counter-strike/rehlds/Dockerfile_rehlds" beforeDir="false" afterPath="$PROJECT_DIR$/counter-strike/rehlds/Dockerfile_rehlds" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/counter-strike/rehlds/addons/amxmodx/configs/amxx.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/counter-strike/rehlds/cstrike/addons/amxmodx/configs/amxx.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/counter-strike/rehlds/addons/amxmodx/configs/cmds.ini" beforeDir="false" afterPath="$PROJECT_DIR$/counter-strike/rehlds/cstrike/addons/amxmodx/configs/cmds.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/counter-strike/rehlds/addons/amxmodx/configs/core.ini" beforeDir="false" afterPath="$PROJECT_DIR$/counter-strike/rehlds/cstrike/addons/amxmodx/configs/core.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/counter-strike/rehlds/addons/amxmodx/configs/cvars.ini" beforeDir="false" afterPath="$PROJECT_DIR$/counter-strike/rehlds/cstrike/addons/amxmodx/configs/cvars.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/counter-strike/rehlds/addons/amxmodx/configs/maps.ini" beforeDir="false" afterPath="$PROJECT_DIR$/counter-strike/rehlds/cstrike/addons/amxmodx/configs/maps.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/counter-strike/rehlds/addons/amxmodx/configs/modules.ini" beforeDir="false" afterPath="$PROJECT_DIR$/counter-strike/rehlds/cstrike/addons/amxmodx/configs/modules.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/counter-strike/rehlds/addons/amxmodx/configs/plugins.ini" beforeDir="false" afterPath="$PROJECT_DIR$/counter-strike/rehlds/cstrike/addons/amxmodx/configs/plugins.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/counter-strike/rehlds/addons/amxmodx/configs/stats.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/counter-strike/rehlds/addons/amxmodx/data/csstats.amxx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/counter-strike/rehlds/addons/amxmodx/modules/cstrike_amxx_i386.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/counter-strike/rehlds/addons/amxmodx/modules/csx_amxx_i386.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/counter-strike/rehlds/addons/amxmodx/plugins/miscstats.amxx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/counter-strike/rehlds/addons/amxmodx/plugins/restmenu.amxx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/counter-strike/rehlds/addons/amxmodx/plugins/stats_logging.amxx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/counter-strike/rehlds/addons/amxmodx/plugins/statsx.amxx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/counter-strike/rehlds/addons/amxmodx/scripting/csstats.sma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/counter-strike/rehlds/addons/amxmodx/scripting/miscstats.sma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/counter-strike/rehlds/addons/amxmodx/scripting/restmenu.sma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/counter-strike/rehlds/addons/amxmodx/scripting/stats_logging.sma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/counter-strike/rehlds/addons/amxmodx/scripting/statsx.sma" beforeDir="false" afterPath="$PROJECT_DIR$/counter-strike/rehlds/cstrike/addons/amxmodx/scripting/statsx.sma" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/counter-strike/rehlds/build_cs-rehlds.sh" beforeDir="false" afterPath="$PROJECT_DIR$/counter-strike/rehlds/build_cs-rehlds.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/counter-strike/rehlds/build_cs-rehlds_and_publish.sh" beforeDir="false" afterPath="$PROJECT_DIR$/counter-strike/rehlds/build_cs-rehlds_and_publish.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/counter-strike/rehlds/liblist.gam" beforeDir="false" afterPath="$PROJECT_DIR$/counter-strike/rehlds/cstrike/liblist.gam" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rehlds/addons/amxmodx/configs/users.ini" beforeDir="false" afterPath="$PROJECT_DIR$/rehlds/addons/amxmodx/configs/users.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rehlds/addons/metamod/dlls/metamod.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rehlds/addons/metamod/plugins.ini" beforeDir="false" afterPath="$PROJECT_DIR$/rehlds/addons/metamod/plugins.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rehlds/hlds/core.so" beforeDir="false" afterPath="$PROJECT_DIR$/rehlds/hlds/core.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rehlds/hlds/demoplayer.so" beforeDir="false" afterPath="$PROJECT_DIR$/rehlds/hlds/demoplayer.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rehlds/hlds/engine_i486.so" beforeDir="false" afterPath="$PROJECT_DIR$/rehlds/hlds/engine_i486.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rehlds/hlds/filesystem_stdio.so" beforeDir="false" afterPath="$PROJECT_DIR$/rehlds/hlds/filesystem_stdio.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rehlds/hlds/hlds_linux" beforeDir="false" afterPath="$PROJECT_DIR$/rehlds/hlds/hlds_linux" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rehlds/hlds/hltv" beforeDir="false" afterPath="$PROJECT_DIR$/rehlds/hlds/hltv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rehlds/hlds/proxy.so" beforeDir="false" afterPath="$PROJECT_DIR$/rehlds/hlds/proxy.so" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +265,7 @@
     "WebServerToolWindowFactoryState": "false",
     "go.import.settings.migrated": "true",
     "go.sdk.automatically.set": "true",
-    "last_opened_file_path": "/home/f0x/games/docker_images/hlds/counter-strike/rehlds",
+    "last_opened_file_path": "/home/f0x/games/docker_images/hlds/counter-strike-dm/rehlds",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -53,18 +275,18 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/counter-strike/rehlds" />
-      <recent name="$PROJECT_DIR$/rehlds/addons" />
-      <recent name="$PROJECT_DIR$/rehlds" />
-      <recent name="$PROJECT_DIR$/amxmodx/addons/amxmodx/scripting" />
-      <recent name="$PROJECT_DIR$/counter-strike-dm/cstrike/addons/amxmodx/scripting" />
+      <recent name="$PROJECT_DIR$/counter-strike-dm/rehlds" />
+      <recent name="$PROJECT_DIR$/rehlds/addons/amxmodx/scripting" />
+      <recent name="$PROJECT_DIR$/counter-strike/rehlds/cstrike/addons/amxmodx/configs" />
+      <recent name="$PROJECT_DIR$/counter-strike/rehlds/cstrike/addons/amxmodx/data" />
+      <recent name="$PROJECT_DIR$/rehlds/addons/metamod" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/counter-strike/rehlds/cstrike" />
       <recent name="$PROJECT_DIR$/rehlds/hlds" />
       <recent name="$PROJECT_DIR$/counter-strike/addons/cstrike/addons/amxmodx/plugins" />
       <recent name="$PROJECT_DIR$/counter-strike/addons/cstrike/addons/amxmodx/scripting" />
       <recent name="$PROJECT_DIR$/counter-strike-dm/cstrike/addons/amxmodx/plugins" />
-      <recent name="$PROJECT_DIR$/counter-strike-dm/cstrike/addons/amxmodx/scripting" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
