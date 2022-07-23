@@ -1,0 +1,3 @@
+FROM af0x/rehlds:reunion-base
+COPY ./cstrike ./cstrike
+ENTRYPOINT ./hlds_run -game cstrike +port 27015 +map $MAP +rcon_password $RCON_PASSWORD

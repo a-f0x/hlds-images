@@ -44,7 +44,7 @@ services:
       - ./docker/half-life/mapcycle.txt:/hlds/valve/mapcycle.txt
       - ./docker/half-life/server.cfg:/hlds/valve/server.cfg
       - ./docker/half-life/maps:/hlds/valve/maps
-      - ./docker/users.ini:/hlds/cstrike/addons/amxmodx/configs/users.ini
+      - ./docker/users.ini:/hlds/valve/addons/amxmodx/configs/users.ini
     ports:
       - "27016:27015/tcp"
       - "27016:27015/udp"

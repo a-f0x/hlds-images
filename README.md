@@ -20,6 +20,7 @@ CS 1.6:
 
 [Docker hub](https://hub.docker.com/r/af0x/rehlds/tags)
 
+
 ### Images with entry point tags:
 ```af0x/rehlds:hl``` Half-Life image with entrypoint.  Based on ```af0x/rehlds:base```
 
@@ -28,6 +29,7 @@ CS 1.6:
 ```af0x/rehlds:csdm``` - Coutner-Strike 1.6 Death Match. Based on ```af0x/rehlds:base``` with:
 * [Death Match Mode](https://bitbucket.org/Adidasman/recsdm/src/master/)
 
+[Reunion 0.1.0.92d](https://dev-cs.ru/resources/68/updates)
 
 ### Run in docker-compose
 1. Create network ``docker network create games-net``
