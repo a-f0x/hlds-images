@@ -60,10 +60,6 @@ public hook_death()
 
    set_user_health(nKiller, nKiller_hp)
 
-   // Hud message "Healed +15/+40 hp"
-   set_hudmessage(0, 255, 0, -1.0, 0.15, 0, 1.0, 1.0, 0.1, 0.1, -1)
-   show_hudmessage(nKiller, "Бонус +%d hp", nHp_add)
-
    // Screen fading
    message_begin(MSG_ONE, get_user_msgid("ScreenFade"), {0,0,0}, nKiller)
    write_short(1<<10)

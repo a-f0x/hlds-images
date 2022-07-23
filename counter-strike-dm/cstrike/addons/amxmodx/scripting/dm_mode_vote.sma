@@ -139,7 +139,7 @@ public finish_vote( )
 			else
 			{
 				ChatColor( i, "!g[%s] %L", SERVER_TAG, i, "VOTE_FINISH", ( g_vote[ HEAD ] + g_vote[ NORMAL ] ) > 0 ? get_percent( g_vote[ HEAD ], g_vote[ NORMAL ] ) : 0, ( g_vote[ HEAD ] + g_vote[ NORMAL ] ) > 0 ? get_percent( g_vote[ NORMAL ], g_vote[ HEAD ] ) : 0 );	
-				ChatColor( i, "!g[%s] %L", SERVER_TAG, i, "VOTE_RESULT", g_vote [ HEAD ] > g_vote[ NORMAL ] ? "ХедШот" : "Нормальный" );
+				ChatColor( i, "!g[%s] %L", SERVER_TAG, i, "VOTE_RESULT", g_vote [ HEAD ] > g_vote[ NORMAL ] ? "HeadShot" : "Normal" );
 			}
 		}
 	}
@@ -157,10 +157,10 @@ public show_menu_vote( id )
 	
 	new Menu = menu_create( data, "menu_vote" );
 	
-	formatex( data, charsmax( data ), "Нормальный \r[\y%d%%\r]", ( g_vote[ HEAD ] + g_vote[ NORMAL ] ) > 0 ? get_percent( g_vote[ NORMAL ], g_vote[ HEAD ] ) : 0 );
+	formatex( data, charsmax( data ), "Normal \r[\y%d%%\r]", ( g_vote[ HEAD ] + g_vote[ NORMAL ] ) > 0 ? get_percent( g_vote[ NORMAL ], g_vote[ HEAD ] ) : 0 );
 	menu_additem( Menu, data, "1" );
 	
-	formatex( data, charsmax( data ), "ХедШот \r[\y%d%%\r]", ( g_vote[ HEAD ] + g_vote[ NORMAL ] ) > 0 ? get_percent( g_vote[ HEAD ], g_vote[ NORMAL ] ) : 0 );
+	formatex( data, charsmax( data ), "HeadShot \r[\y%d%%\r]", ( g_vote[ HEAD ] + g_vote[ NORMAL ] ) > 0 ? get_percent( g_vote[ HEAD ], g_vote[ NORMAL ] ) : 0 );
 	menu_additem( Menu, data, "2" );
 	
 	menu_setprop( Menu, MPROP_EXIT, MEXIT_NEVER );
@@ -181,7 +181,7 @@ public menu_vote( id, Menu, item )
 	
 	g_vote[ item ]++;
 	
-	ChatColor( 0, "!g[%s] %L", SERVER_TAG, id, "VOTE_HAS_CHOOSEN", uName, !item ? "Нормальный" : "ХедШот" );
+	ChatColor( 0, "!g[%s] %L", SERVER_TAG, id, "VOTE_HAS_CHOOSEN", uName, !item ? "Normal" : "HeadShot" );
 	
 	for( new i = 1; i <= g_iMaxPlayers; i++ )
 	{
