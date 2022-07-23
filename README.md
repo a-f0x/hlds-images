@@ -27,8 +27,6 @@ CS 1.6:
 
 ```af0x/rehlds:csdm``` - Coutner-Strike 1.6 Death Match. Based on ```af0x/rehlds:base``` with:
 * [Death Match Mode](https://bitbucket.org/Adidasman/recsdm/src/master/)
-* [VampireMode]()
-
 
 
 [docker-hub base HLDS image](https://hub.docker.com/r/af0x/hlds)
