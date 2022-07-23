@@ -31,3 +31,11 @@ CS 1.6:
 
 [docker-hub base HLDS image](https://hub.docker.com/r/af0x/hlds)
 [docker-hub ReHLDS image](https://hub.docker.com/r/af0x/rehlds)
+
+### Run in docker-compose
+1. Create network ``docker network create games-net``
+2. Run compose with profile ``docker-compose --profile=csdm up`` 
+4. Open console in Counter-Strike game and enter ``connect 127.0.0.1:27017``
+
+For customization server you can add volumes in docker-compose.yml.
+ 

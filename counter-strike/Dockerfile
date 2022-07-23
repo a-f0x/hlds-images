@@ -1,3 +1,3 @@
 FROM af0x/rehlds:base
 COPY ./cstrike ./cstrike
-ENTRYPOINT ./hlds_run -game cstrike + map de_dust2
+ENTRYPOINT ./hlds_run -game cstrike +port 27015 +map $MAP +rcon_password $RCON_PASSWORD
