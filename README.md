@@ -6,9 +6,9 @@ after install app #90.
 
 ### Base images tags:
 
-```af0x/hlds:base``` - Base image without any mods.
+```af0x/hlds:base``` - [Base image without any mods](https://hub.docker.com/r/af0x/hlds)
 
-```af0x/rehlds:base```  - Base image. Based on ```af0x/hlds:base``` with:
+```af0x/rehlds:base```  - Base image. Based on [base hlds image](https://hub.docker.com/r/af0x/rehlds) with:
 
 Common (Half-Life and CS 1.6):
 * [AMX Mod X downloads for version 1.9 - build 5294:](https://www.amxmodx.org/downloads-new.php).
@@ -23,14 +23,9 @@ CS 1.6:
 
 ```af0x/rehlds:cs``` Counter-Strike 1.6 image with entrypoint.  Based on ```af0x/rehlds:base```
 
-```af0x/rehlds:csdm``` Counter-Strike 1.6  image with entrypoint.  Based on ```af0x/rehlds:base```
-
 ```af0x/rehlds:csdm``` - Coutner-Strike 1.6 Death Match. Based on ```af0x/rehlds:base``` with:
 * [Death Match Mode](https://bitbucket.org/Adidasman/recsdm/src/master/)
 
-
-[docker-hub base HLDS image](https://hub.docker.com/r/af0x/hlds)
-[docker-hub ReHLDS image](https://hub.docker.com/r/af0x/rehlds)
 
 ### Run in docker-compose
 1. Create network ``docker network create games-net``
