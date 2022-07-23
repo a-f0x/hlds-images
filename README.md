@@ -6,9 +6,9 @@ after install app #90.
 
 ### Base images tags:
 
-```af0x/hlds:base``` - [Base image without any mods](https://hub.docker.com/r/af0x/hlds)
+```af0x/hlds:base``` - [Base image without any mods](https://hub.docker.com/layers/hlds/af0x/hlds/base/images/sha256-3c7322b88fdd994b710bba79317bff56dd89f647fcb44cb8514a0ad7319f6b2d?context=explore)
 
-```af0x/rehlds:base```  - Base image. Based on [base hlds image](https://hub.docker.com/r/af0x/rehlds) with:
+```af0x/rehlds:base``` - Base ReHLDS image. Based on ```af0x/hlds:base``` with:
 
 Common (Half-Life and CS 1.6):
 * [AMX Mod X downloads for version 1.9 - build 5294:](https://www.amxmodx.org/downloads-new.php).
@@ -17,6 +17,8 @@ Common (Half-Life and CS 1.6):
 
 CS 1.6:
 * [ReGameDLL_CS](https://dev-cs.ru/resources/67/)
+
+[Docker hub](https://hub.docker.com/r/af0x/rehlds/tags)
 
 ### Images with entry point tags:
 ```af0x/rehlds:hl``` Half-Life image with entrypoint.  Based on ```af0x/rehlds:base```
