@@ -22,8 +22,6 @@ services:
     profiles:
       - all
       - csdm
-    depends_on:
-      - rabbitmq
     image: af0x/rehlds:csdm
     volumes:
       - ./docker/cs/mapcycle.txt:/hlds/cstrike/mapcycle.txt
@@ -41,8 +39,6 @@ services:
     profiles:
       - all
       - hl
-    depends_on:
-      - rabbitmq
     image: af0x/rehlds:hl
     volumes:
       - ./docker/half-life/mapcycle.txt:/hlds/valve/mapcycle.txt
