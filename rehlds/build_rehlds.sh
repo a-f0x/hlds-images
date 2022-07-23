@@ -1,1 +1,1 @@
-docker build -t af0x/hlds:rehlds .
+docker build -t af0x/rehlds:base .

@@ -1,22 +1,41 @@
-### HLDS images 
+### HLDS images
 
 All content loaded from official [steamcmd client](https://developer.valvesoftware.com/wiki/SteamCMD).
 But based on ubuntu:xenial because [official images](https://hub.docker.com/r/cm2network/steamcmd/) takes over 1GB space
 after install app #90.
 
-### Tags:
+### Base images tags:
 
-```clean``` - Base image without any mods.
+```af0x/hlds:base``` - Base image without any mods.
 
-```amxmodx```  - Base image with only [AMX Mod X Base v1.8.2 Linux](https://www.amxmodx.org/downloads.php).
+```af0x/rehlds:base```  - Base image. Based on ```af0x/hlds:base``` with:
 
-```cs-classic``` - Classic Couters-Strike 1.6 with amxmodx
-with [Counter-Strike Addon 1.8.2 Linux](https://www.amxmodx.org/downloads.php).
+Common (Half-Life and CS 1.6):
+* [AMX Mod X downloads for version 1.9 - build 5294:](https://www.amxmodx.org/downloads-new.php).
+* [Metamod-r](https://dev-cs.ru/resources/208/)
+* [ReHLDS 3.11.0.77](https://github.com/dreamstalker/rehlds/releases)
 
-```hl-classic``` - Classic Half-Life with only [AMX Mod X Base v1.8.2 Linux](https://www.amxmodx.org/downloads.php).
+CS 1.6:
+* [ReGameDLL_CS](https://dev-cs.ru/resources/67/)
 
-```cs-dm``` - Coutner-Strike 1.6
-with [Death Match Mode](http://www.bailopan.net/csdm/index.php?page=install) 
-and fix [csdm_amxx_i386.so](https://forums.alliedmods.net/showpost.php?p=1909682&postcount=27?p=1909682&postcount=27)
+### Images with entry point tags:
+```af0x/rehlds:hl``` Half-Life image with entrypoint.  Based on ```af0x/rehlds:base```
 
-[docker-hub](https://hub.docker.com/r/af0x/hlds)
+```af0x/rehlds:cs``` Counter-Strike 1.6 image with entrypoint.  Based on ```af0x/rehlds:base```
+
+```af0x/rehlds:csdm``` Counter-Strike 1.6  image with entrypoint.  Based on ```af0x/rehlds:base```
+
+```af0x/rehlds:csdm``` - Coutner-Strike 1.6 Death Match. Based on ```af0x/rehlds:base``` with:
+* [Death Match Mode](https://bitbucket.org/Adidasman/recsdm/src/master/)
+
+
+[docker-hub base HLDS image](https://hub.docker.com/r/af0x/hlds)
+[docker-hub ReHLDS image](https://hub.docker.com/r/af0x/rehlds)
+
+### Run in docker-compose
+1. Create network ``docker network create games-net``
+2. Run compose with profile ``docker-compose --profile=csdm up`` 
+4. Open console in Counter-Strike game and enter ``connect 127.0.0.1:27017``
+
+For customization server you can add volumes in docker-compose.yml.
+ 

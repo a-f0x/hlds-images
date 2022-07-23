@@ -25,19 +25,6 @@ new cvar_votetime, cvar_blockknife_dmg, cvar_voteinit_time;
 
 new g_vote[ 2 ], g_hasvoted[ 33 ];
 
-new const sound_countdown[ ][ ] = {
-	"misc/one.wav",
-	"misc/two.wav",
-	"misc/three.wav",
-	"misc/four.wav",
-	"misc/five.wav"
-};
-
-public plugin_precache( )
-{
-	for( new i = 0; i < sizeof sound_countdown; i++ )
-		precache_sound( sound_countdown[ i ] );
-}
 
 public plugin_init( )
 {
@@ -83,8 +70,7 @@ public show_vote( )
 					show_hudmessage( i, "%L", i, "VOTE_STARTS_IN", g_iVoteCountdown - 1 )
 			}
 			
-			PlaySound( g_iVoteCountdown - 2 );
-			
+
 			g_iVoteCountdown--;
 			
 			return PLUGIN_HANDLED;
@@ -153,7 +139,7 @@ public finish_vote( )
 			else
 			{
 				ChatColor( i, "!g[%s] %L", SERVER_TAG, i, "VOTE_FINISH", ( g_vote[ HEAD ] + g_vote[ NORMAL ] ) > 0 ? get_percent( g_vote[ HEAD ], g_vote[ NORMAL ] ) : 0, ( g_vote[ HEAD ] + g_vote[ NORMAL ] ) > 0 ? get_percent( g_vote[ NORMAL ], g_vote[ HEAD ] ) : 0 );	
-				ChatColor( i, "!g[%s] %L", SERVER_TAG, i, "VOTE_RESULT", g_vote [ HEAD ] > g_vote[ NORMAL ] ? "ХедШот" : "Нормальный" );
+				ChatColor( i, "!g[%s] %L", SERVER_TAG, i, "VOTE_RESULT", g_vote [ HEAD ] > g_vote[ NORMAL ] ? "HeadShot" : "Normal" );
 			}
 		}
 	}
@@ -163,9 +149,7 @@ public finish_vote( )
 	set_cvar_num( "sv_restart", 1 );
 }
 
-public PlaySound( sound )
-	client_cmd( 0, "spk ^"%s^"", sound_countdown[ sound ] );
-	
+
 public show_menu_vote( id )
 {
 	new data[ 64 ];
@@ -173,10 +157,10 @@ public show_menu_vote( id )
 	
 	new Menu = menu_create( data, "menu_vote" );
 	
-	formatex( data, charsmax( data ), "Нормальный \r[\y%d%%\r]", ( g_vote[ HEAD ] + g_vote[ NORMAL ] ) > 0 ? get_percent( g_vote[ NORMAL ], g_vote[ HEAD ] ) : 0 );
+	formatex( data, charsmax( data ), "Normal \r[\y%d%%\r]", ( g_vote[ HEAD ] + g_vote[ NORMAL ] ) > 0 ? get_percent( g_vote[ NORMAL ], g_vote[ HEAD ] ) : 0 );
 	menu_additem( Menu, data, "1" );
 	
-	formatex( data, charsmax( data ), "ХедШот \r[\y%d%%\r]", ( g_vote[ HEAD ] + g_vote[ NORMAL ] ) > 0 ? get_percent( g_vote[ HEAD ], g_vote[ NORMAL ] ) : 0 );
+	formatex( data, charsmax( data ), "HeadShot \r[\y%d%%\r]", ( g_vote[ HEAD ] + g_vote[ NORMAL ] ) > 0 ? get_percent( g_vote[ HEAD ], g_vote[ NORMAL ] ) : 0 );
 	menu_additem( Menu, data, "2" );
 	
 	menu_setprop( Menu, MPROP_EXIT, MEXIT_NEVER );
@@ -197,7 +181,7 @@ public menu_vote( id, Menu, item )
 	
 	g_vote[ item ]++;
 	
-	ChatColor( 0, "!g[%s] %L", SERVER_TAG, id, "VOTE_HAS_CHOOSEN", uName, !item ? "Нормальный" : "ХедШот" );
+	ChatColor( 0, "!g[%s] %L", SERVER_TAG, id, "VOTE_HAS_CHOOSEN", uName, !item ? "Normal" : "HeadShot" );
 	
 	for( new i = 1; i <= g_iMaxPlayers; i++ )
 	{

@@ -1,1 +1,1 @@
-docker build -t af0x/hlds:cs-dm .
+docker build -f ./Dockerfile -t af0x/rehlds:csdm .
