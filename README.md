@@ -1,10 +1,10 @@
-### HLDS images
+# HLDS images
 
 All content loaded from official [steamcmd client](https://developer.valvesoftware.com/wiki/SteamCMD).
 But based on ubuntu:xenial because [official images](https://hub.docker.com/r/cm2network/steamcmd/) takes over 1GB space
 after install app #90.
 
-### Base images tags:
+# Base images tags:
 
 ```af0x/hlds:base``` - [Base image without any mods](https://hub.docker.com/layers/hlds/af0x/hlds/base/images/sha256-3c7322b88fdd994b710bba79317bff56dd89f647fcb44cb8514a0ad7319f6b2d?context=explore)
 
@@ -17,11 +17,14 @@ Common (Half-Life and CS 1.6):
 
 CS 1.6:
 * [ReGameDLL_CS](https://dev-cs.ru/resources/67/)
-
+* [ReAimDetector 0.2.2](https://dev-cs.ru/resources/66/)
+ 
 [Docker hub](https://hub.docker.com/r/af0x/rehlds/tags)
 
 
-### Images with entry point tags:
+# Images with entry point tags
+
+## Only Steam Client images:
 ```af0x/rehlds:hl``` Half-Life image with entrypoint.  Based on ```af0x/rehlds:base```
 
 ```af0x/rehlds:cs``` Counter-Strike 1.6 image with entrypoint.  Based on ```af0x/rehlds:base```
@@ -29,7 +32,16 @@ CS 1.6:
 ```af0x/rehlds:csdm``` - Coutner-Strike 1.6 Death Match. Based on ```af0x/rehlds:base``` with:
 * [Death Match Mode](https://bitbucket.org/Adidasman/recsdm/src/master/)
 
-[Reunion 0.1.0.92d](https://dev-cs.ru/resources/68/updates)
+## Non Steam Client images
+Uses [Reunion 0.1.0.92d](https://dev-cs.ru/resources/68/updates)
+
+``af0x/rehlds:cs-nosteam``
+
+``af0x/rehlds:csdm-nosteam``
+
+``af0x/rehlds:hl-nosteam``
+
+
 
 ### Run in docker-compose
 1. Create network ``docker network create games-net``
