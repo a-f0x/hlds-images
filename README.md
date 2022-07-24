@@ -37,4 +37,3 @@ CS 1.6:
 4. Open console in Counter-Strike game and enter ``connect 127.0.0.1:27017``
 
 For customization server you can add volumes in docker-compose.yml.
- 

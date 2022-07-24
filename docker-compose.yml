@@ -11,13 +11,13 @@ services:
       - ./docker/cs/server.cfg:/hlds/cstrike/server.cfg
       - ./docker/cs/maps:/hlds/cstrike/maps
       - ./docker/users.ini:/hlds/cstrike/addons/amxmodx/configs/users.ini
-    expose:
-      - "27015/tcp"
-      - "27015/udp"
+    ports:
+      - "27015:27015/tcp"
+      - "27015:27015/udp"
     environment:
       RCON_PASSWORD: asjop2340239857uG
       MAP: de_dust2_2x2
-
+      PORT: 27015
   csdm:
     profiles:
       - all
@@ -29,12 +29,12 @@ services:
       - ./docker/cs/maps:/hlds/cstrike/maps
       - ./docker/users.ini:/hlds/cstrike/addons/amxmodx/configs/users.ini
     ports:
-      - "27017:27015/tcp"
-      - "27017:27015/udp"
+      - "27017:27017/tcp"
+      - "27017:27017/udp"
     environment:
       RCON_PASSWORD: asjop2340239857uG
       MAP: de_dust2_2x2
-
+      PORT: 27017
   half-life:
     profiles:
       - all
@@ -46,11 +46,12 @@ services:
       - ./docker/half-life/maps:/hlds/valve/maps
       - ./docker/users.ini:/hlds/valve/addons/amxmodx/configs/users.ini
     ports:
-      - "27016:27015/tcp"
-      - "27016:27015/udp"
+      - "27016:27016/tcp"
+      - "27016:27016/udp"
     environment:
       RCON_PASSWORD: asjop2340239857uG
       MAP: 1337_Street
+      PORT: 27016
 
 networks:
   default:
