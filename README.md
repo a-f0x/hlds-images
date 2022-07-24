@@ -15,10 +15,12 @@ Common (Half-Life and CS 1.6):
 * [Metamod-r](https://dev-cs.ru/resources/208/)
 * [ReHLDS 3.11.0.77](https://github.com/dreamstalker/rehlds/releases)
 
+
 CS 1.6:
 * [ReGameDLL_CS](https://dev-cs.ru/resources/67/)
 * [ReAimDetector 0.2.2](https://dev-cs.ru/resources/66/)
- 
+* [MapManager 2.5.60](https://github.com/Mistrick/MapManager/releases/download/2.5.60/mapmanager_v2.5.60.zip)
+
 [Docker hub](https://hub.docker.com/r/af0x/rehlds/tags)
 
 
