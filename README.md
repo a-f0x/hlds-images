@@ -43,11 +43,14 @@ Uses [Reunion 0.1.0.92d](https://dev-cs.ru/resources/68/updates)
 
 ``af0x/rehlds:hl-nosteam``
 
-
-
-### Run in docker-compose
+## Run in docker-compose
 1. Create network ``docker network create games-net``
 2. Run compose with profile ``docker-compose --profile=csdm up`` 
 4. Open console in Counter-Strike game and enter ``connect 127.0.0.1:27017``
 
 For customization server you can add volumes in docker-compose.yml.
+
+## Fast download
+You can use nginx container for [fast download resources](https://developer.valvesoftware.com/wiki/Sv_downloadurl).
+
+For example add in your server.cfg ``sv_downloadurl "http://your_ip:2750/cstrike/``

@@ -4,126 +4,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b60851f-6c73-4bee-9bb9-06bf47e1343c" name="Changes" comment="remove ru lang">
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/cs/mapcycle.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/cs/maps/$2000$.bsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/cs/maps/de_dust2_2x2.bsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/cs/maps/fy_snow2.bsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/cs/server.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/mapcycle.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/1337_Street.bsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/boot_camp.bsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/bounce.bsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/crossfire.bsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/datacore.bsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/frenzy.bsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/gasworks.bsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/c0a0.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/c0a0d.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/c0a0e.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/c1a0.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/c1a0a.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/c1a0b.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/c1a0c.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/c1a0d.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/c1a0e.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/c1a1.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/c1a1a.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/c1a1b.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/c1a1c.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/c1a1d.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/c1a1f.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/c1a2.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/c1a2a.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/c1a2b.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/c1a2c.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/c1a2d.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/c1a3.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/c1a3a.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/c1a3b.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/c1a3c.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/c1a3d.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/c1a4.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/c1a4b.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/c1a4d.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/c1a4e.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/c1a4f.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/c1a4i.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/c1a4j.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/c1a4k.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/c2a1.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/c2a1a.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/c2a1b.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/c2a2.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/c2a2a.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/c2a2b1.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/c2a2b2.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/c2a2c.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/c2a2d.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/c2a2e.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/c2a2f.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/c2a2g.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/c2a2h.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/c2a3.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/c2a3a.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/c2a3b.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/c2a3c.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/c2a3d.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/c2a4.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/c2a4a.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/c2a4b.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/c2a4c.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/c2a4d.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/c2a4e.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/c2a4f.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/c2a4g.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/c2a5.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/c2a5a.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/c2a5b.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/c2a5c.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/c2a5d.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/c2a5e.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/c2a5f.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/c2a5g.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/c2a5w.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/c3a1.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/c3a1a.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/c3a1b.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/c3a2.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/c3a2a.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/c3a2b.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/c3a2c.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/c3a2d.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/c3a2e.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/c3a2f.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/c4a1.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/c4a1a.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/c4a1b.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/c4a1c.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/c4a1d.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/c4a1e.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/c4a2.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/c4a2a.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/c4a2b.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/c4a3.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/datacore.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/lambda_bunker.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/subtransit.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/graphs/t0a0d.nod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/lambda_bunker.bsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/rapidcore.bsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/snark_pit.bsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/stalkyard.bsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/subtransit.bsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/maps/undertow.bsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/half-life/server.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/users.ini" afterDir="false" />
+    <list default="true" id="2b60851f-6c73-4bee-9bb9-06bf47e1343c" name="Changes" comment="fix maps">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/counter-strike-dm/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/counter-strike-dm/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/counter-strike/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/counter-strike/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/half-life/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/half-life/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,34 +32,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.go.format.on.save.advertiser.fired": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
-    "RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "go.import.settings.migrated": "true",
-    "go.sdk.automatically.set": "true",
-    "last_opened_file_path": "/home/f0x/games/docker_images/hlds/docker",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.format.on.save.advertiser.fired&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/f0x/games/docker_images/hlds/docker/half-life&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docker/half-life" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/half-life" />
       <recent name="$PROJECT_DIR$/docker" />
       <recent name="$PROJECT_DIR$/docker/csdm/maps" />
-      <recent name="$PROJECT_DIR$/docker/cs/maps" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/counter-strike-dm/cstrike/addons/amxmodx/plugins" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/counter-strike-dm" />
@@ -227,7 +109,11 @@
     <MESSAGE value="use only rehlds" />
     <MESSAGE value="remove admin f0x" />
     <MESSAGE value="remove ru lang" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove ru lang" />
+    <MESSAGE value="fix reunion image" />
+    <MESSAGE value="reaimdetector for cs" />
+    <MESSAGE value="map manager" />
+    <MESSAGE value="fix maps" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix maps" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
