@@ -11,13 +11,13 @@ after install app #90.
 ```af0x/rehlds:base``` - Base ReHLDS image. Based on ```af0x/hlds:base``` with:
 
 Common (Half-Life and CS 1.6):
-* [AMX Mod X downloads for version 1.9 - build 5294:](https://www.amxmodx.org/downloads-new.php).
-* [Metamod-r](https://dev-cs.ru/resources/208/)
+* [AMX Mod X downloads for version 1.9 - build 5294](https://www.amxmodx.org/downloads-new.php)
+* [Metamod-r 1.3.0.131](https://dev-cs.ru/resources/208/)
 * [ReHLDS 3.11.0.77](https://github.com/dreamstalker/rehlds/releases)
 
 
 CS 1.6:
-* [ReGameDLL_CS](https://dev-cs.ru/resources/67/)
+* [ReGameDLL_CS 5.21.0.546](https://dev-cs.ru/resources/67/)
 * [ReAimDetector 0.2.2](https://dev-cs.ru/resources/66/)
 * [MapManager 2.5.60](https://github.com/Mistrick/MapManager/releases/download/2.5.60/mapmanager_v2.5.60.zip)
 
