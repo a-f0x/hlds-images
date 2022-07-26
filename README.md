@@ -52,4 +52,4 @@ For customization server you can add volumes in docker-compose.yml.
 ## Fast download
 You can use nginx container for [fast download resources](https://developer.valvesoftware.com/wiki/Sv_downloadurl).
 
-For example add in your server.cfg ``sv_downloadurl "http://your_ip:2750/cstrike/``
+For example add in your server.cfg ``sv_downloadurl "http://your_ip:80/cstrike/``
