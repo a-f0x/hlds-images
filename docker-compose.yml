@@ -3,10 +3,9 @@ version: "3.8"
 services:
   fast-download:
     image: af0x/rehlds-fastdl
-    ports:
-      - "2750:80"
+    network_mode: host
     volumes:
-      - ./docker/fast_download
+      - ./docker/fast_download:/static
   cs:
     profiles:
       - all
@@ -17,9 +16,7 @@ services:
       - ./docker/cs/server.cfg:/hlds/cstrike/server.cfg
       - ./docker/fast_download/cstrike/maps:/hlds/cstrike/maps
       - ./docker/users.ini:/hlds/cstrike/addons/amxmodx/configs/users.ini
-    ports:
-      - "27015:27015/tcp"
-      - "27015:27015/udp"
+    network_mode: host
     environment:
       RCON_PASSWORD: asjop2340239857uG
       MAP: de_dust2_2x2
@@ -34,9 +31,7 @@ services:
       - ./docker/cs/server.cfg:/hlds/cstrike/server.cfg
       - ./docker/fast_download/cstrike/maps:/hlds/cstrike/maps
       - ./docker/users.ini:/hlds/cstrike/addons/amxmodx/configs/users.ini
-    ports:
-      - "27017:27017/tcp"
-      - "27017:27017/udp"
+    network_mode: host
     environment:
       RCON_PASSWORD: asjop2340239857uG
       MAP: de_dust2_2x2
@@ -51,15 +46,13 @@ services:
       - ./docker/fast_download/valve/maps:/hlds/valve/maps
       - ./docker/users.ini:/hlds/valve/addons/amxmodx/configs/users.ini
       - ./docker/half-life/maps.ini:/hlds/valve/addons/amxmodx/configs/maps.ini
-    ports:
-      - "27016:27016/tcp"
-      - "27016:27016/udp"
+    network_mode: host
     environment:
       RCON_PASSWORD: asjop2340239857uG
       MAP: 1337_Street
       PORT: 27016
 
-networks:
-  default:
-    external: true
-    name: games-net
+#networks:
+#  host:
+#    name: games-net
+#    external: true
